@@ -1,0 +1,121 @@
+
+
+.main{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}
+.data{
+    height: 90vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.done,.dtwo{
+    height: auto;
+    width: 60%;
+    text-align: left;
+    font-size: 90px;
+}
+.dtwo{
+    text-align: right;
+}
+.btt{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    align-items: center;
+    
+}
+.btt div{
+    text-align: center;
+    height: 2.5rem;
+    width: 9rem;
+    margin-right: 1.5rem;
+    color: black;
+    font-weight: 700;
+}
+button{
+    height: 2.5rem;
+    width: 9rem;
+    border: 1px solid rgb(7, 212, 140);
+    border-radius: 25px;
+    background: white;
+    color: rgb(7, 212, 140);
+    font-size: large;
+}
+
+button:hover{
+    background: rgb(7, 212, 140);
+    color: white;
+    transition-duration: 1s;
+}
+
+.image{
+    display: flex;
+    height: 70vh;
+    width: 30%;
+    border: 1px solid rgb(7, 212, 140);
+    margin-top: 20vh;
+    background-color: rgb(7, 212, 140);
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image img{
+    position: absolute;
+    bottom: 4.5rem;
+    height: full;
+    }
+/* ====================================2ndHome============= */
+
+/* =====================RESPONSIVENESS============================== */
+@media screen and (max-width: 600px) {
+    .main{
+        flex-direction: column-reverse;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .data{
+        /* flex-direction: column; */
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .done,.dtwo{
+        font-size: 50px;
+        text-align: center;
+        font-weight: 600;
+        width: auto;
+    }
+    .btt{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .bone{
+        margin-bottom: 6px;
+     }   
+    .image{
+        margin-top:10rem ;
+        height: 50vh;
+        width: 80vw;
+
+ }
+    .image img{
+         position: absolute;
+         top: 9vh;
+         height: 60vh;
+         bottom: 5rem;
+         
+    }
+    
+  }
