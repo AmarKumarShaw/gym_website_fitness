@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Home from './Home/Home';
-import Navbar from './Navbar/Navbar'
+// import Navbar from './Navbar/Navbar'
 import WhyUs from './Why Us/WhyUs';
 import Card from './cards/Card';
 import Polygon from './Polygon/Polygon';
